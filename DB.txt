@@ -1,0 +1,97 @@
+http://localhost/project_370/
+
+
+Appeliano
+1
+
+
+DB Name		foodlover
+User Name 	aat_pro
+Host		localhost
+Pass		h#(1!wn&9z@%45sS`g
+Server		127.0.0.1
+
+
+comment
+	c_id
+	c_name
+	c_date
+	comment
+	rating
+
+user_account
+	UserID
+	FirstName
+	LastName
+	Address
+	Email
+	Phone
+	Gender
+	UserName
+	Password
+	UserLevel
+
+restaurant
+	r_id
+	area_name
+	restaurant_name
+	r_address
+	r_email
+	r_phone
+	r_rating
+
+menu
+	m_id
+	restaurant_id
+	food_name
+	price
+	
+order
+	id
+	name
+	address
+	email
+	phone
+	date
+	total_amiont
+
+item 
+	o_id
+	f_name
+	f_description
+	f_price
+	quantity
+	amount
+
+order
+	o_id
+	o_res_name
+	o_c_id
+	o_name
+	o_d_address
+	o_phone
+	o_email
+	o_tot_amount
+	o_dis_amount
+	o_pay_amount
+	o_status
+
+order_detail
+	od_id
+	od_o_id
+	od_item_id
+	od_item_price
+	od_item_qty
+	od_amount
+
+
+
+
+email
+phone
+gender
+username
+
+<?php
+	echo '<h2 align="center" style="color: green">Registiation Successfully</h2>';
+?>
